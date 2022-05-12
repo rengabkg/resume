@@ -1,0 +1,93 @@
+/* Whole document */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #2e3440;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Blockquote - for links to different formats of the resume */
+blockquote {
+    color: #4c566a;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Text elements */
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+/* Hyperlinks */
+a {
+    text-decoration: none;
+    color: #5e81ac;
+}
+
+/* Horizontal separators */
+hr {
+    color: #d8dee9;
+}
+
+/* List for job/project description */
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Title of the resume - name */
+h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* Titles of categories */
+h2 {
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+/* Titles of sub-categories - companies/schools */
+h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+/* Titles of sub-sub-categories - roles/degrees */
+h4 {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Titles of sub-sub-sub-categories - tenures */
+h5 {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+/* Definitions */
+dt {
+    float: left;
+    width: 40%;
+    color: #4c566a;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+dd {
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
