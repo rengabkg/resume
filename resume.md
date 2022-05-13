@@ -86,3 +86,9 @@ Surveyed and implemented dynamic graph algorithms in C++ using STL.
 #### Graduate Intern
 ##### June - July 2015
 Developed an internal employee web portal using Python Flask and EmberJS.
+
+---
+
+[PDF Version](https://rengabkg.github.io/resume/RengaBashyam.pdf) •
+[HTML Version](https://rengabkg.github.io/resume/RengaBashyam.html) •
+[Text Version](https://rengabkg.github.io/resume/RengaBashyam.txt)
