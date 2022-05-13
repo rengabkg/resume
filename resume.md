@@ -36,7 +36,7 @@ Parallelization Frameworks
 - Added snippets that matched user query in **ElasticSearch** results.
 - Created batch jobs in **Apache Spark**.
 - Ensured more than 90% unit test coverage for code added.
-- Other relevant frameworks worked on: **Guice**, **JOOQ**, **Flyway**.
+- Other relevant frameworks worked on: **Guice**, **JOOQ**, **Flyway**, **JUnit**.
 - Worked with the following operational tools: **Prometheus**, **Grafana**, **Kibana**, **Jenkins**.
 
 ### Amazon
