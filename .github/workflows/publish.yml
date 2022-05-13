@@ -1,0 +1,41 @@
+name: Build Resume and Publish to Github Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies and build
+        run: |
+          brew install pandoc wkhtmltopdf
+          make
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: output
+          path: output
+
+  publish:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: output
+
+      - name: Publish
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: "output"
+          single-commit: true
