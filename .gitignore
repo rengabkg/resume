@@ -1,2 +1,5 @@
 # Output directory.
 output/
+
+# MacOS Artifacts
+**/.DS_Store
