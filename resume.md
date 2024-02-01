@@ -12,12 +12,12 @@ Bengaluru, India\
 ---
 
 Programming Languages
-:   Java (Proficient)
-:   C, C++ (Intermediate)
-:   Golang, Rust (Beginner)
+:   **Proficient**: Java 
+    **Intermediate**: C, C++, Python
+    **Beginner**: Golang, Rust
 
 Technologies
-:   Apache Spark, ElasticSearch, PostgreSQL, DynamoDB, SQS, Jenkins
+:   PostgreSQL, ElasticSearch, Kubernetes, Terraform, DynamoDB, Spark, Kafka, Firebase
 
 Observability Tools
 : Prometheus, Grafana, Kibana
@@ -29,9 +29,15 @@ Parallelization Frameworks
 
 ---
 
+### Onehouse
+##### **Software Engineer** | July 2022 - October 2023 | Remote
+- Automated deployment of terraform scripts, allowing the team to deploy infrastructural config changes faster.
+- Created notification system for the product, allowing users to take proactive measures on failures.
+- Worked on Postgres CDC ingestion, making way for more customers to be onboarded.
+- Worked with the following operational tools: **Kubernetes**, **Terraform**, **Prometheus**, **Grafana**, **GH Actions**.
+
 ### ThoughtSpot
-#### Member of Technical Staff - 3
-##### August 2020 - Present, Bengaluru
+##### **Member of Technical Staff - 3** | August 2020 - May 2022 | Bengaluru/Remote
 - Created a **gRPC** microservice from scratch and designed its **PostgreSQL** schema.
 - Added snippets that matched user query in **ElasticSearch** results.
 - Created batch jobs in **Apache Spark**.
@@ -40,8 +46,7 @@ Parallelization Frameworks
 - Worked with the following operational tools: **Prometheus**, **Grafana**, **Kibana**, **Jenkins**.
 
 ### Amazon
-#### Software Development Engineer - 1
-##### July - December 2017, Chennai
+##### **Software Development Engineer - 1** | July 2017 - December 2017 | Chennai
 - Created an asynchronous API using **SQS** as the message broker.
 - Created a background worker that polled from **SQS** and wrote to **DynamoDB** after making a slow network call.
 - Worked with internal monitoring, logging tools to debug production issues.
@@ -78,13 +83,11 @@ Designed and implemented a hybrid algorithm, effectively utilizing both CPU and 
 ---
 
 ### Indian Institute of Technology, Madras
-#### Summer Research Fellow
-##### May - July 2016
+##### **Summer Research Fellow** | May - July 2016
 Surveyed and implemented dynamic graph algorithms in C++ using STL.
 
 ### Xome Services India Private Limited, Chennai
-#### Graduate Intern
-##### June - July 2015
+##### **Graduate Intern** | June - July 2015
 Developed an internal employee web portal using Python Flask and EmberJS.
 
 ---
