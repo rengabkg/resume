@@ -7,7 +7,7 @@ all: $(RESUME_PATH).html $(RESUME_PATH).pdf $(RESUME_PATH).txt $(OUT_DIR)/.nojek
 
 $(RESUME_PATH).html: resume.md styles/resume.css
 	@mkdir -p $(OUT_DIR)
-	@pandoc --standalone --self-contained \
+	@pandoc --standalone --embed-resources \
 		--css styles/resume.css \
 		--from markdown-auto_identifiers --to html \
 		--metadata pagetitle="Resume - Renga Bashyam" \
@@ -15,7 +15,7 @@ $(RESUME_PATH).html: resume.md styles/resume.css
 
 $(RESUME_PATH).pdf: resume.md styles/resume.css
 	@mkdir -p $(OUT_DIR)
-	@pandoc --standalone --self-contained \
+	@pandoc --standalone --embed-resources \
 		--css styles/resume.css \
 		--from markdown-auto_identifiers --to pdf \
 		--metadata pagetitle="Resume - Renga Bashyam" \
