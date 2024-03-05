@@ -3,7 +3,7 @@
 Bengaluru, India\
 <rengabkg@protonmail.com> • +91 75980 10654
 
-> A mid-level software engineer with an interest in distributed systems,
+> A senior software engineer with an interest in distributed systems,
 > an eagerness to solve scaling challenges,
 > and a penchant for writing clean code.
 
