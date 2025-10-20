@@ -1,2 +1,5 @@
 # Output directory.
 output/
+
+# MacOS metadata file
+.DS_Store
